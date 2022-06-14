@@ -1,16 +1,14 @@
 .shop{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 .product{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     width: auto;
     border-right: 3px solid lightgrey;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .cart{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .text{
     color: darkblue;

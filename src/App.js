@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Components/Header/Header';
 import Shop from './Components/Shop/Shop';
 
 function App() {
   return (
-    <div >
+    <div>
       <Header></Header>
       <Shop></Shop>
     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Row } from 'react-bootstrap';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
@@ -34,8 +35,9 @@ const Shop = () => {
                 <input onChange={handleSearch} placeholder=' Search item here  ' type="text" />
                 <br /><br />
             </div>
-            <div className='shop' >
-                <div className='product' >
+
+            <Row xs={2} sm={2} md={2} lg={2} className='shop' >
+                <Row xs={1} sm={1} md={2} lg={3} className="g-4 product">
                     {
                         display.map((product)=> <Product
                             key={product.key}
@@ -43,16 +45,14 @@ const Shop = () => {
                             addtocart={addtocart}
                         ></Product> )
                     }
-                    
-                </div>
+                </Row>
                 <div className='cart' >
                     <Cart
                         cart={cart}
                     ></Cart>
                 </div>
-            </div>
-        </div>
-        
+            </Row>
+        </div> 
     );
 };
 

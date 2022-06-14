@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../../Data/deca_logo.jpg'
 import './Header.css';
-
 const Header = () => {
     return (
         <div>
@@ -14,7 +13,7 @@ const Header = () => {
                 <p>
                     <h3 className='headings' ><u>About Us</u></h3>
                     <b>  DECATHLON.</b> It’s our privilege to introduce ourselves. We have 15 years' experience since we are specialists in Gym-Fitness Equipment & Sports Accessories Goods. We provide service and maintenance for all the products and services. 
-                    We have been specialized in sports flooring facilities like basketball, volleyball, badminton, table tennis, long tennis coat facilities & also gym setup,  gym layouts, & operation planning. We make sure that we provide the utmost satisfaction and contentment with every sale we make. DECATHLON is your trusted online shop to buy branded Fitness and Sports goods.
+                    We have been specialized in sports flooring facilities like basketball, volleyball, badminton, table tennis, long tennis coat facilities & also gym setup,  gym layouts, & operation planning. 
                 </p>
                 <p>
                     <h3 className='headings' ><u>Contact Us</u></h3>
@@ -27,5 +26,4 @@ const Header = () => {
         </div>
     );
 };
-
 export default Header;
